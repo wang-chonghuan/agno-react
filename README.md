@@ -60,7 +60,12 @@ python basic_agent.py
 
 #### Playground (Web UI)
 ```bash
+# From backend directory
 python playground.py
+
+# Or from backend/src directory (new modular structure)
+cd src
+python main.py
 ```
 Then visit `http://localhost:7777` or connect via `http://app.agno.com/playground`
 
